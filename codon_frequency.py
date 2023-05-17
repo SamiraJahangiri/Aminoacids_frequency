@@ -59,7 +59,6 @@ def visualize_letter_frequencies(fasta_file, output_file):
     df.to_csv(output_file, index=False)
 
 
-# Example usage:
 if __name__ == '__main__':
     if len(sys.argv) < 3:
         print("Please provide a FASTA file and an output file name as arguments.")
